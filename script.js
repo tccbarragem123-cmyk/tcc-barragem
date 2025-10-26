@@ -3,8 +3,8 @@
 // ------------------------------------------------------------------
 
 // Criados no painel "Access Management" do HiveMQ
-const MQTT_USUARIO = "ESP32.ESTACAO1"; 
-const MQTT_SENHA = "xzg65SXmGJsew5W";
+const MQTT_USUARIO = "ESP32.TESTE1"; 
+const MQTT_SENHA = "T22134Rr4GeM";
 
 // 2. INFORMAÇÕES DO SEU CLUSTER 
 const brokerUrl = 'wss://2ff4346515a146d09e462c89f66a79ac7.s1.eu.hivemq.cloud:8884/mqtt';
@@ -280,4 +280,5 @@ function initDistanceChart() {
 //                 statusMessage.style.fontWeight = 'bold'
 //             });
 //     });
+
 // });
