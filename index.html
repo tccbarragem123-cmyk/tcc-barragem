@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ESP BARRAGEM</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset = "UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <div class="topnav">
+            <h1>LEITURA - ESTAÇÃO 1</h1>
+        </div>
+        <div class="content">
+            <div class="card-grid">
+                <div class="card" id="temperature-card">
+                    <p class="card-title">Temperatura</p>
+                    <p class="reading"><span id="temperature"></span> &deg;C</p>
+                </div>
+                <div class="card">
+                    <p class="card-title" id="distance-card"> Nível</p>
+                    <p class="reading"><span id="distance"></span> cm</p>
+                </div>
+                <div class="card">
+                    <p class="card-title" id="vibration1-card"> Vibração - 1</p>
+                    <p class="reading"><span id="vibration1"></span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title" id="vibration2-card"> Vibração - 2</p>
+                    <p class="reading"><span id="vibration2"></span></p>
+                </div>
+            </div>
+            <div class="chart-container">
+                <div class="chart-wrapper">
+                    <canvas id="TemperatureChart"></canvas>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="DistanceChart"></canvas>
+                </div>
+        </div>
+	    <div class="email-submit">
+		<form action="" method="get" class="email-form" id = "email-form">
+  		    <div class="email-form">
+    			 <label for="email" id = "email">Insira o seu e-mail: </label>
+    			 <input type="email" name="email" class = "input-email" placeholder="seu.email@exemplo.com" id = "input-email" required/>
+  		    </div>
+  		    <div class="email-form" id = "email-button">
+    		    <input type="submit" value="Inserir e-mail" />
+  		    </div>
+		</form>
+        <p id = "status-message"></p>
+	    </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
