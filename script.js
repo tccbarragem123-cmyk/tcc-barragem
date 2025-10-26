@@ -2,7 +2,7 @@ var gateway = `ws://${window.location.hostname}/ws`;
 var websocket;
 
 const maxData = 20;
-const blynkToken = 'YKSHgSBHiA5wRuzfgDdisSNAs9YG5OkF'; // SEU TOKEN
+const blynkToken = 'lW3O82Io83KSfpshSTDVijMo0H0NMQCg'; // SEU TOKEN
 const blynkBaseUrl = 'https://blynk.cloud/external/api/get?token=' + blynkToken;
 
 // Variáveis globais para os gráficos
