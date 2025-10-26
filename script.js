@@ -7,7 +7,7 @@ const MQTT_USUARIO = "ESP32.TESTE1";
 const MQTT_SENHA = "T22134Rr4GeM";
 
 // 2. INFORMAÇÕES DO SEU CLUSTER 
-const brokerUrl = 'wss://2ff4346515a146d09e462c89f66a79ac7.s1.eu.hivemq.cloud:8884/mqtt';
+const brokerUrl = 'wss://2ff4346515a146d09e462c8966a79ac7.s1.eu.hivemq.cloud:8884/mqtt';
 const topic = 'esp-barragem/dados'; // O mesmo tópico do seu ESP32
 
 // 3. OPÇÕES DE CONEXÃO
@@ -282,3 +282,4 @@ function initDistanceChart() {
 //     });
 
 // });
+
